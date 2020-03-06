@@ -6787,6 +6787,15 @@ button.bg-warning:hover {
     background-color: #dc3545 !important
 }
 
+.MainLogo {
+    width: 50vw;
+    filter: invert();
+}
+
+.MiniLogo {
+    width: 5vw;
+}
+
 a.bg-danger:focus,
 a.bg-danger:hover,
 button.bg-danger:focus,
@@ -7021,6 +7030,12 @@ button.bg-dark:hover {
 
     .d-sm-inline-flex {
         display: inline-flex !important
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .MiniLogo {
+        width: 20vw;
     }
 }
 
