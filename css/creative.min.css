@@ -6729,7 +6729,10 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #cb2033 !important
+    /* background-color: #cb2033 !important */
+    background: url("../img/back1.png") no-repeat;
+    background-size: cover;
+
 }
 
 a.bg-primary:focus,
