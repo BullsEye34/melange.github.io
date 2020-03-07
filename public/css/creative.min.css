@@ -67,7 +67,8 @@ section {
 }
 
 .micro {
-    font-size: 5px;
+    text-decoration: none;
+    color: gray;
 }
 
 body {
