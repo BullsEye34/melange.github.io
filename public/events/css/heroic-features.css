@@ -17,6 +17,11 @@ body {
   margin: 20px;
 }
 
+.micro {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 580px) {
 
   .vec {
