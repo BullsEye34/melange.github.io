@@ -5,16 +5,31 @@
  */
 body {
   padding-top: 56px;
+  background: url(../../img/back1.png) no-repeat;
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+.gr {
+  background: rgb(173, 173, 173);
 }
 
 .MainLogo {
-  width: 10vw;
+  width: 20vw;
+}
+
+.MiniLogo {
+  width: 5vw;
   filter: invert();
 }
 
 .vec {
   align-self: center;
   margin: 20px;
+  height: 200px;
+  filter: invert(64%) sepia(48%) saturate(1210%) hue-rotate(175deg)
+    brightness(101%) contrast(101%);
 }
 
 .micro {
@@ -23,7 +38,10 @@ body {
 }
 
 @media (max-width: 580px) {
-
+  .MiniLogo {
+    width: 15vw;
+    filter: invert();
+  }
   .vec {
     width: 250px;
     align-self: center;
@@ -31,7 +49,6 @@ body {
   }
 
   .MainLogo {
-    width: 25vw;
-    filter: invert();
+    width: 70vw;
   }
 }
