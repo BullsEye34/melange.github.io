@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Freestyle";
+    src: url("../fONT/FREESCPT.woff") format("woff"),
+        url("../fONT/FREESCPT.TTF"),
+}
+
+html {
+    background: white;
+}
+
+footer {
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+main {
+    scroll-behavior: smooth;
+}
+
+/* 
+.demo-layout-transparent {
+    background: url("../../img/logo/Melange 2020 Logo Black.png.") top / cover no-repeat;
+    background-attachment: scroll;
+    background-size: 40vw;
+    background-position-y: 50px;
+} */
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+ your background is light. */
+    color: black;
+
+}
+
+.demo-card-square.mdl-card {
+    width: 15vw;
+    height: 40vh;
+}
+
+.vec {
+    width: 13vw;
+    height: 10vw;
+    align-self: center;
+    margin: 10px;
+}
+
+.woo {
+    color: black;
+}
+
+.demo-card-square>.mdl-card__title {
+    color: #fff;
+    background: bottom right 15% no-repeat #46B6AC;
+}
+
+.MiniLogo {
+    width: 3vw;
+}
+
+.MainLogo {
+    width: 30vw;
+    padding-left: 35vw;
+}
+
+.mainStage {
+    padding-top: 20px;
+
+    h1 {
+        font-family: "Freestyle";
+        font-weight: 500;
+        font-size: 80px;
+    }
+}
+
+.offStage {
+
+    h1 {
+        font-family: "Freestyle";
+        font-weight: 500;
+        font-size: 80px;
+    }
+}
+
+.gaming {
+
+    h1 {
+        font-family: "Freestyle";
+        font-weight: 500;
+        font-size: 80px;
+    }
+}
+
+.sports {
+
+    h1 {
+        font-family: "Freestyle";
+        font-weight: 500;
+        font-size: 80px;
+    }
+}
+
+
+@media (max-width: 580px) {
+
+    /*     .demo-layout-transparent {
+        background: url("../../img/logo/Melange 2020 Logo Black.png") top / cover no-repeat;
+        background-size: 50vw;
+        background-position-y: 30px;
+    } */
+
+
+    .MainLogo {
+        width: 50vw;
+        padding-left: 25vw;
+        padding-top: 60px;
+    }
+
+    .MiniLogo {
+        padding-left: 15vw;
+        width: 15vw;
+    }
+
+
+    .demo-card-square.mdl-card {
+        width: 45vw;
+        height: 250px;
+    }
+
+
+    .vec {
+        width: 30vw;
+        height: 25vw;
+        align-self: center;
+        margin: 10px;
+    }
+
+
+}
