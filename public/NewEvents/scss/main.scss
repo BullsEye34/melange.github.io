@@ -8,6 +8,12 @@ html {
     background: white;
 }
 
+.mainText {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 20px;
+
+}
+
 footer {
 
     a {
@@ -54,7 +60,13 @@ main {
 
 .demo-card-square>.mdl-card__title {
     color: #fff;
-    background: bottom right 15% no-repeat #46B6AC;
+    background: bottom right 15% no-repeat;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+
+
+
 }
 
 .MiniLogo {
@@ -127,9 +139,12 @@ main {
 
     .demo-card-square.mdl-card {
         width: 45vw;
-        height: 250px;
+        height: 300px;
     }
 
+    .mainText {
+        font-size: 15px;
+    }
 
     .vec {
         width: 30vw;
