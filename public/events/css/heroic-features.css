@@ -8,9 +8,11 @@ body {
   background: url(../../img/back1.png) no-repeat;
   background-size: cover;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .gr {
   background: rgb(173, 173, 173);
 }
@@ -28,8 +30,7 @@ html {
   align-self: center;
   margin: 20px;
   height: 200px;
-  filter: invert(64%) sepia(48%) saturate(1210%) hue-rotate(175deg)
-    brightness(101%) contrast(101%);
+  filter: invert(64%) sepia(48%) saturate(1210%) hue-rotate(175deg) brightness(101%) contrast(101%);
 }
 
 .micro {
@@ -42,6 +43,7 @@ html {
     width: 15vw;
     filter: invert();
   }
+
   .vec {
     width: 250px;
     align-self: center;
@@ -49,6 +51,8 @@ html {
   }
 
   .MainLogo {
+    margin-top: 100px;
+    padding-top: 100px;
     width: 70vw;
   }
 }

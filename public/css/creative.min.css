@@ -77,8 +77,35 @@ section {
     width: 100%;
 }
 
+.bor {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 
 @media(max-width:580px) {
+    header {
+        margin-top: 100px;
+    }
+
+    #hehe {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .bor {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 0.5px;
+    }
 
     .pa {
         margin: 2px;

@@ -8,6 +8,8 @@ html {
     background: white;
 }
 
+
+
 .mainText {
     font-family: "Comic Sans MS", cursive, sans-serif;
     padding: 20px;
@@ -63,19 +65,26 @@ main {
     background: bottom right 15% no-repeat;
     background-color: #7ee8fa;
     background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
-
-
-
-
 }
 
 .MiniLogo {
     width: 3vw;
 }
 
-.MainLogo {
+.MainnnLogo {
     width: 30vw;
     padding-left: 35vw;
+
+}
+
+.btn {
+    border-style: solid;
+    padding: 20px 40px 20px 40px;
+    color: orange;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 20px;
+    border-width: 2px;
 }
 
 .mainStage {
@@ -124,10 +133,20 @@ main {
         background-position-y: 30px;
     } */
 
+    .btn {
+        border-style: solid;
+        padding: 20px 40px 20px 40px;
+        color: orange;
+        text-decoration: none;
+        font-size: large;
+        border-radius: 20px;
+        border-width: 2px;
+    }
 
-    .MainLogo {
-        width: 50vw;
-        padding-left: 25vw;
+    .MainnnLogo {
+        width: 75vw;
+        padding-left: 15vw;
+        margin-bottom: 30px;
         padding-top: 60px;
     }
 
